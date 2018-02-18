@@ -1,6 +1,8 @@
-# My 2018 website of goodness using Foundation for Sites' ZURB template.
+# A website about George Treviranus
 
-Still the easiest way to bootstrap a static site super fast. :)
+Welcome to my site repo. This is my site built in 2018 to let folks find links to my profiles around the web. If you found this from inspecting my site's page source, winner is you!
+
+PS. ZURB's foundation is Still the easiest way to bootstrap a static site.
 
 ## Installation
 

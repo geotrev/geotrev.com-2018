@@ -3,6 +3,12 @@ $blue: #263952;
 $site-width: 800px;
 $breakpoint: 848px;
 
+@mixin breakpoint {
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
 html { background-color: $blue; }
 
 body {
@@ -18,7 +24,7 @@ body {
   margin: 0 auto;
   padding: 32px 24px;
 
-  @media screen and (min-width: $breakpoint) {
+  @include breakpoint {
     padding: 64px 24px;
 
     grid-template:
@@ -65,7 +71,7 @@ header {
     height: auto;
     width: 50px;
 
-    @media screen and (min-width: $breakpoint) {
+    @include breakpoint {
       width: 68px;
     }
   }
@@ -77,7 +83,7 @@ h1 {
   font-size: 32px;
   letter-spacing: 1px;
 
-  @media screen and (min-width: $breakpoint) {
+  @include breakpoint {
     font-size: 50px;
     margin-bottom: 50px;
     margin-top: 100px;
@@ -90,8 +96,9 @@ main {
     margin-bottom: 30px;
     line-height: 28px;
 
-    @media screen and (min-width: $breakpoint) {
+    @include breakpoint {
       padding-left: 50px;
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -126,7 +133,7 @@ figure {
 nav {
   padding: 30px 0;
 
-  @media screen and (min-width: $breakpoint) {
+  @include breakpoint {
     padding: 0;
     display: flex;
     align-items: center;
@@ -151,25 +158,25 @@ nav {
       transition: 0.15s ease-out;
       margin-bottom: 16px;
 
-      @media screen and (min-width: $breakpoint) {
+      @include breakpoint {
         opacity: 0.7;
         margin-bottom: 0;
         padding: 0 12px;
       }
 
-      span, .ion { transition: 0.15s ease-out; }
+      .name, .ion { transition: 0.15s ease-out; }
       .ion { font-size: 38px; }
 
       .ion {
         padding-bottom: 8px;
 
-        @media screen and (min-width: $breakpoint) {
+        @include breakpoint {
           padding-bottom: 0;
         }
       }
 
-      span:nth-child(2) {
-        @media screen and (min-width: $breakpoint) {
+      .name {
+        @include breakpoint {
           opacity: 0;
         }
       }
@@ -178,7 +185,7 @@ nav {
         opacity: 1;
         text-decoration: none;
 
-        span:nth-child(2) {
+        .name {
           opacity: 1;
         }
 
@@ -187,7 +194,7 @@ nav {
     }
 
     &:hover li a, &:active li a {
-      span:nth-child(2) {
+      .name {
         opacity: 1;
       }
 

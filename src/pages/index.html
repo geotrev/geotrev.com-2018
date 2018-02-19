@@ -6,7 +6,15 @@
 
 <nav>
   <ul>
-    {{> nav_items }}
+    {{#each nav_data}}
+      <li>
+        <a href="{{this.url}}" target="_blank">
+          <span class="ion {{this.icon}}" aria-hidden="true"></span>
+          <span>{{this.name}}</span>
+          <span class="is-visually-hidden">(opens new tab)</span>
+        </a>
+      </li>
+    {{/each}}
   </ul>
 </nav>
 

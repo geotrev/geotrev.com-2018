@@ -1,0 +1,42 @@
+[
+  {
+    "url": "assets/img/george-in-a-nutshell-etc.pdf",
+    "icon": "ion-document-text",
+    "name": "Resume"
+  },
+  {
+    "url": "https://www.codepen.io/geotrev",
+    "icon": "ion-social-codepen",
+    "name": "Codepen"
+  },
+  {
+    "url": "https://www.medium.com/@gwtrev",
+    "icon": "ion-ios-paper",
+    "name": "Blog"
+  },
+  {
+    "url": "https://www.twitter.com/gwtrev",
+    "icon": "ion-social-twitter",
+    "name": "Twitter"
+  },
+  {
+    "url": "https://www.github.com/geotrev",
+    "icon": "ion-social-github",
+    "name": "Github"
+  },
+  {
+    "url": "https://www.dribbble.com/gwtrev",
+    "icon": "ion-social-dribbble",
+    "name": "Dribbble"
+  },
+  {
+    "url": "https://www.linkedin.com/in/gwtrev",
+    "icon": "ion-social-linkedin",
+    "name": "LinkedIn"
+  },
+  {
+    "url": "mailto:hello@geotrev.com",
+    "icon": "ion-paper-airplane",
+    "name": "Email"
+  }
+]

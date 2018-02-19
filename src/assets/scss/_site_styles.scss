@@ -53,7 +53,7 @@ body {
 a {
   color: $teal;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
 
   &:hover {
     text-decoration: underline;
@@ -73,8 +73,8 @@ header {
 
 h1 {
   font-family: 'Anton', Impact, -apple-system, sans-serif;
-  font-size: 32px;
   font-weight: 400;
+  font-size: 32px;
   letter-spacing: 1px;
 
   @media screen and (min-width: $breakpoint) {

@@ -177,10 +177,16 @@ nav {
       &:hover, &:active, &:focus {
         opacity: 1;
         text-decoration: none;
+
+        span:nth-child(2) {
+          opacity: 1;
+        }
+
+        .ion { padding-bottom: 8px; }
       }
     }
 
-    &:hover li a, &:active li a, &:focus li a {
+    &:hover li a, &:active li a {
       span:nth-child(2) {
         opacity: 1;
       }

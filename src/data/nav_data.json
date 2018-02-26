@@ -2,41 +2,49 @@
   {
     "url": "assets/img/george-in-a-nutshell-etc.pdf",
     "icon": "ion-document-text",
-    "name": "Resume"
+    "name": "Resume",
+    "opens": "new tab"
   },
   {
     "url": "https://www.codepen.io/geotrev",
     "icon": "ion-social-codepen",
-    "name": "Codepen"
+    "name": "Codepen",
+    "opens": "new tab"
   },
   {
     "url": "https://www.medium.com/@gwtrev",
     "icon": "ion-ios-paper",
-    "name": "Blog"
+    "name": "Blog",
+    "opens": "new tab"
   },
   {
     "url": "https://www.twitter.com/gwtrev",
     "icon": "ion-social-twitter",
-    "name": "Twitter"
+    "name": "Twitter",
+    "opens": "new tab"
   },
   {
     "url": "https://www.github.com/geotrev",
     "icon": "ion-social-github",
-    "name": "Github"
+    "name": "Github",
+    "opens": "new tab"
   },
   {
     "url": "https://www.dribbble.com/gwtrev",
     "icon": "ion-social-dribbble",
-    "name": "Dribbble"
+    "name": "Dribbble",
+    "opens": "new tab"
   },
   {
     "url": "https://www.linkedin.com/in/gwtrev",
     "icon": "ion-social-linkedin",
-    "name": "LinkedIn"
+    "name": "LinkedIn",
+    "opens": "new tab"
   },
   {
     "url": "mailto:hello@geotrev.com",
     "icon": "ion-paper-airplane",
-    "name": "Email"
+    "name": "Email",
+    "opens": "mail client"
   }
 ]

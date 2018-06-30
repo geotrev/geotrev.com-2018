@@ -1,4 +1,4 @@
 .sass-cache/
 .ruby-version
-styles.css
-styles.css.map
+*.css
+*.map

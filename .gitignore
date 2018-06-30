@@ -1,6 +1,4 @@
-.DS_Store
-node_modules
-npm-debug.log
-bower_components
-dist
-*.swp
+.sass-cache/
+.ruby-version
+styles.css
+styles.css.map
